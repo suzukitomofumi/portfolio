@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@tomfum9991" /> 
+  <meta property="fb:app_id" content="668553883627792" />
+  <meta property="og:url" content="http://portfolio.outomoput.info" /> 
+  <meta property="og:title" content="tomofumi`s portfolio" />
+  <meta property="og:description" content="ポートフォリオサイトを作成しました。僕の自己紹介や技術などを確認することができます。" />
+  <meta property="og:image" content="http://portfolio.outomoput.info/img/Simple%20Macbook%20Pro%2015.png" /> 
+  <title>My portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/hiraku.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+  <script src="//code.jquery.com/jquery-1.12.1.min.js"></script>
+  <script src="https://kit.fontawesome.com/838fe551a4.js" crossorigin="anonymous"></script>
+  <script src="https://sdk.form.run/js/v2/formrun.js"></script>
+  
+  <script src="js/hiraku.js"></script>
+
+</head>
+
+<body>
+  <header id="header">
+    <div class="header-left">
+      <a href="#">tomofumi</a>
+    </div>
+    <div class="header-right">
+      <ul>
+        <li class="menu"><a href="#profile">PROFILE</a></li>
+        <li class="menu"><a href="#skills">SKILLS</a></li>
+        <li class="menu"><a href="#works">WORKS</a></li>
+        <li class="menu"><a href="#contact">CONTACT</a></li>
+        <li class="menu"><a class="popup-modal" href="#inline-wrap5">BLOG</a></li>
+      </ul>
+    </div>
+    <button class="hiraku-open-btn" id="offcanvas-btn-right" data-toggle-offcanvas="#js-hiraku-offcanvas-1">
+        <span class="hiraku-open-btn-line"></span>
+    </button>
+  </header>
+  <div class="offcanvas-right">
+      <ul>
+          <li class="menu"><a href="#profile">PROFILE</a></li>
+          <li class="menu"><a href="#skills">SKILLS</a></li>
+          <li class="menu"><a href="#works">WORKS</a></li>
+          <li class="menu"><a href="#contact">CONTACT</a></li>
+          <li class="menu"><a class="popup-modal" href="#inline-wrap5">BLOG</a></li>
+      </ul>
+  </div>
+
+  <div class="main">
+    <div class="main-contents">
+      <div class="main-text">
+        <h2 class="type">Hello World!<br>Welcome to my portfolio.</h2>
+      </div>
+    </div>
+  </div>
+
+  <div class="profile" id="profile">
+    <div class="container">
+      <h1 class="title">PROFILE</h1>
+      <div class="profile-flex">
+        <div class="profile-left">
+          <img src="img/myself.png" alt="">
+          <div class="small-profile">
+            <div class="small-left">
+              <p>name</p>
+              <p>age</p>
+              <p>address</p>
+            </div>
+            <div class="small-right">
+              <p>: Tomofumi Suzuki</p>
+              <p>: 20</p>
+              <p>: Tokyo</p>
+            </div>
+          </div>
+        </div>
+        <div class="profile-right">
+          <div class="profile-top">
+            <p>1999年 : 誕生</p>
+            <p>2015年 : 札幌手稲高等学校へ入学</p>
+            <p>2018年 : キリロム工科大学へ入学</p>
+            <p>2018年 : カンボジア日本人学生会設立</p>
+            <p>2018年 : キリロム工科大学を休学</p>
+            <p>2019年 : 株式会社サーキュレーション＞営業インターン</p>
+            <p>2019年 : 株式会社ミツモア＞SEOインターン</p>
+            <p></p>
+            <p></p>
+          </div>
+          <div class="profile-bottom">
+            <p>
+              2019年5月よりプログラミングの勉強を独学で始めました。<br>それまではカンボジアのキリロム工科大学似通いながら学生会を立ち上げ、現地でキャリアイベントを立ち上げたり、イベントに登壇していました。その後休学→上京し、営業、SEOインターンを経て今に至ります。
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="skills" id="skills">
+    <div class="skills-back">
+      <div class="container">
+        <h1 class="title">SKILLS</h1>
+        <div class="skill-contents">
+          <div class="skill">
+            <h2 class="skill-title">FRONT<i class="fas fa-code titile-icon"></i></h2>
+            <ul>
+              <li>html</li>
+              <li>css</li>
+              <li>sass</li>
+              <li>Bootstrap</li>
+              <li>JavaScript</li>
+              <li>jQuery</li>
+              <li>Responsive</li>
+            </ul>
+          </div>
+          <div class="skill">
+            <h2 class="skill-title">SERVER<i class="fas fa-server titile-icon"></i></h2>
+            <ul>
+              <li>Node</li>
+              <li>PHP</li>
+            </ul>
+          </div>
+          <div class="skill">
+            <h2 class="skill-title">OTHERS<i class="far fa-address-card titile-icon"></i></h2>
+            <ul>
+              <li>git</li>
+              <li>GitHub</li>
+              <li>Wordpress</li>
+              <li>heroku</li>
+              <li>Communication</li>
+              <li>SEO</li>
+            </ul>
+          </div>
+        </div>
+        <div class="skill-list">
+          <i class="fab fa-html5"></i><i class="fab fa-css3"></i><i class="fab fa-sass"></i><i
+            class="fab fa-bootstrap"></i><i class="fab fa-js"></i><i class="fab fa-node"></i><i
+            class="fab fa-php"></i><i class="fab fa-git"></i><i class="fab fa-github"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="works" id="works">
+    <div class="container">
+      <h1 class="title">WORKS</h1>
+      <div class="works-contents">
+        <div class="work">
+          <a class="popup-modal" href="#inline-wrap1">
+            <img src="img/Simple Macbook Pro 15.png" alt="ポートフォリオ">
+          </a>
+          <div id="inline-wrap1" class="mfp-hide hide">
+            <div class="hide-left">
+              <a href=""><img src="img/Simple Macbook Pro 15.png" src=""></a>
+            </div>
+            <div class="hide-right">
+              <h1>自分のポートフォリオサイト</h1>
+              <p class="explain">HTML,CSS,JSの練習がてら兼企業用にポートフォリオを作成しました。時間があまりなかったので、細かい部分は手を付けられていませんが、この程度のページであれば4日間あれば余裕を持って完成することが可能です。</p>
+              <p class="period">制作期間 : 2日間</p>
+              <p class="language">使用言語 : html, css,scss, js, jQuery</p>
+              <p class="url">URL : <a href="">http:portfolio.outomoput.info</a></p>
+              <p class="popup-modal-dismiss back-btn"><a href="#">閉じる</a></p>
+
+            </div>
+          </div>
+        </div>
+        <div class="work">
+            <a class="popup-modal" href="#inline-wrap2">
+              <img src="img/Simple Macbook Pro 15 (3).png" alt="ポートフォリオ">
+            </a>
+            <div id="inline-wrap2" class="mfp-hide hide">
+              <div class="hide-left">
+                <a href="https://tomofumi-practice1.herokuapp.com/" target=”_blank”><img src="img/Simple Macbook Pro 15 (3).png"></a>
+              </div>
+              <div class="hide-right">
+                <h1>デザインカンプからの模写</h1>
+                <p class="explain">勉強開始から間もないのでところところ粗い部分があります。responsiveもあまり上手に出来ていません。</p>
+                <p class="period">制作期間 : 3日間</p>
+                <p class="language">使用言語 : html, css, js, jQuery</p>
+                <p class="url">URL : <a href="https://tomofumi-practice1.herokuapp.com/" target=”_blank”>https://tomofumi-practice1.herokuapp.com/</a></p>
+                <p class="popup-modal-dismiss back-btn"><a href="#">閉じる</a></p>
+  
+              </div>
+            </div>
+          </div>
+          <div class="work">
+              <a class="popup-modal" href="#inline-wrap3">
+                <img src="img/Simple Macbook Pro 15 (1).png" alt="ポートフォリオ">
+              </a>
+              <div id="inline-wrap3" class="mfp-hide hide">
+                <div class="hide-left">
+                  <a href="https://tomofumi-practice2.herokuapp.com/" target=”_blank”><img src="img/Simple Macbook Pro 15 (1).png"></a>
+                </div>
+                <div class="hide-right">
+                  <h1>Bootstrapの勉強</h1>
+                  <p class="explain">Bootstrapの勉強のためにyoutubeを見ながら写経しました。</p>
+                  <p class="period">制作期間 : 2日間</p>
+                  <p class="language">使用言語 : html, css, js, Bootstrap</p>
+                  <p class="url">URL : <a href="https://tomofumi-practice2.herokuapp.com/" target=”_blank”>https://tomofumi-practice2.herokuapp.com/</a></p>
+                  <p class="popup-modal-dismiss back-btn"><a href="#">閉じる</a></p>
+    
+                </div>
+              </div>
+            </div>
+            <div class="work">
+                <a class="popup-modal" href="#inline-wrap4">
+                  <img src="img/Simple Macbook Pro 15 (2).png" alt="ポートフォリオ">
+                </a>
+                <div id="inline-wrap4" class="mfp-hide hide">
+                  <div class="hide-left">
+                      <a href="https://tomofumi-practice3.herokuapp.com/" target=”_blank”><img src="img/Simple Macbook Pro 15 (2).png"></a>
+                  </div>
+                  <div class="hide-right">
+                    <h1>デザインカンプからの模写</h1>
+                    <p class="explain">こちらもデザインカンプからの模写になります。jsのライブラリで色々遊びながら作ってみました。</p>
+                    <p class="period">制作期間 : 2日間</p>
+                    <p class="language">使用言語 : html, css, js, jQuery</p>
+                    <p class="url">URL : <a href="https://tomofumi-practice3.herokuapp.com/" target=”_blank”>https://tomofumi-practice3.herokuapp.com/</a></p>
+                    <p class="popup-modal-dismiss back-btn"><a href="#">閉じる</a></p>
+      
+                  </div>
+                </div>
+              </div>
+            <div class="work">
+                <a class="popup-modal" href="#inline-wrap5">
+                  <img src="img/bloginmac.png" alt="ポートフォリオ">
+                </a>
+                <div id="inline-wrap5" class="mfp-hide hide">
+                  <div class="hide-left">
+                      <a href="http://outomoput.info" target=”_blank”><img src="img/bloginmac.png"></a>
+                  </div>
+                  <div class="hide-right">
+                    <h1>自作テーマによる個人ブログ</h1>
+                    <p class="explain">某ロードマップで勉強しながらローカル環境でテーマのカスタマイズをし、Wordpress化をしました。主に在籍大学のキリロム工科大学についてまとめています。</p>
+                    <p class="period">制作期間 : 20日間</p>
+                    <p class="language">使用言語 : html, css, js, PHP, Wordpress</p>
+                    <p class="url">URL : <a href="http://outomoput.info" target=”_blank”>http://outomoput.info</a></p>
+                    <p class="popup-modal-dismiss back-btn"><a href="#">閉じる</a></p>
+      
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form" id="contact">
+          <div class="container">
+            <h1 class="title">CONTACT</h1>
+            <p class="contact-explain">お仕事の依頼・ご相談、その他質問がありましたら、TwitterのDMまたは下記のコンタクトフォームよりお気軽にお問い合せください。</p>
+            <div class="contact-link">
+              <a class="twitter" href="https://twitter.com/tomfum9991" target=”_blank”><i
+                  class="fab fa-twitter"></i>@tomfum9991</a>
+            </div>
+            <!-- class, action, methodを変更しないでください -->
+            <form class="formrun" action="https://form.run/api/v1/r/krtvcdntknrjh9j5qax1d6be" method="post">
+              <!-- ↓自由に要素を追加・編集することができます -->
+              <div class="contact-item">
+                <label>お名前　　　　</label>
+                <input class="inputs" name="お名前" type="text" data-formrun-required placeholder="お名前を入力してください">
+              </div>
+
+              <div class="contact-item">
+                <label>メールアドレス</label>
+                <input class="inputs" name="メールアドレス" type="text" data-formrun-type="email" data-formrun-required
+                  placeholder="メールアドレスと入力してください">
+              </div>
+
+              <div class="contact-item">
+                <label>お問い合わせ　</label>
+                <textarea class="inputs" name="お問い合わせ" data-formrun-required placeholder="お問合せ内容を入力してください"></textarea>
+              </div>
+              <button type="submit" data-formrun-error-text="未入力の項目があります"
+                data-formrun-submitting-text="送信中...">送信</button>
+            </form>
+          </div>
+        </div>
+        <!-- フローティングボタン、スマホタブレットのみ -->
+        <div class="floating">
+            <a href="#">トップへ</a>
+        </div>
+
+
+        <footer>
+          <small>Copyright © tomofumi All Rights Reserved.</small>
+        </footer>
+
+
+        <script src="js/main.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+        <script src="js/t.min.js"></script>
+</body>
+
+</html>
